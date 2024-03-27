@@ -24,6 +24,8 @@ const Email = sequelize.define('Email', {
     type: DataTypes.STRING,
     allowNull: false,
   },
+}, {
+  timestamps: false
 });
 
 module.exports = Email;
