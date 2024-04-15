@@ -28,7 +28,7 @@ const send_email = async (first_name, last_name, email) => {
   const tokenTimestamp = Date.now();
 
   // Construct the verification link with token and email parameters
-  const verificationLink = `https://shantanutyagi.me/v1/user/account-verification?token=${token}&email=${encodeURIComponent(email)}`;
+  const verificationLink = `https://shantanutyagi.me/v8/user/account-verification?token=${token}&email=${encodeURIComponent(email)}`;
 
   let htmlContent = "<html>"
             + "<body>"
